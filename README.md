@@ -1,1 +1,3 @@
 # pre_mRNA_counts
+This repo features pipelines that quantifying nascent mRNA transcripts and mature mRNA transcripts utilizing total RNA-seq data.   
+Two scripts are available with slightly different outputs depending on the user's preference. The ```htseq-count``` script utilizes ```htseq-count``` (https://htseq.readthedocs.io/en/release_0.11.1/count.html) to quantify pre-mRNAs and a mixture of pre-mRNAs and mature mRNAs. The ```Kallisto-count``` script utilizes ```Kallisto``` (https://www.nature.com/articles/nbt.3519), a pseudocount program that quantifies abundances of nascent mRNAs and mature mRNAs. Detailed instructions is under ```instruction.md```.  
